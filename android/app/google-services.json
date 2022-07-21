@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701071423180",
+    "project_id": "money-manager-66b46",
+    "storage_bucket": "money-manager-66b46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701071423180:android:2cdeb14328a56641007469",
+        "android_client_info": {
+          "package_name": "com.vulture.moneymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701071423180-3qm2tk3nrvgnletlkmu37h9s4f4qhq17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfBKTDzSLMzvf_JEH5gJMSO-LcAw62thU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701071423180-3qm2tk3nrvgnletlkmu37h9s4f4qhq17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
