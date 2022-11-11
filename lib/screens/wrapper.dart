@@ -1,8 +1,11 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:moneymanager/models/user.dart';
 import 'package:moneymanager/screens/auth/auth.dart';
 import 'package:moneymanager/screens/home/home.dart';
 import 'package:provider/provider.dart';
+
 class wrapper extends StatelessWidget {
   const wrapper({Key? key}) : super(key: key);
 
@@ -13,7 +16,9 @@ class wrapper extends StatelessWidget {
       return authenticate();
     } else {
       String uid = user.uid;
-      return Homescreen(uid: uid,);
+      return Homescreen(
+        uid: uid,
+      );
     }
   }
 }

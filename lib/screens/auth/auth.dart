@@ -1,6 +1,9 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 import 'package:moneymanager/screens/auth/sign_in.dart';
 import 'package:moneymanager/screens/auth/register.dart';
+
 class authenticate extends StatefulWidget {
   const authenticate({Key? key}) : super(key: key);
 
@@ -10,16 +13,17 @@ class authenticate extends StatefulWidget {
 
 class _authenticateState extends State<authenticate> {
   bool showSignin = true;
-  void toggleview(){
+  void toggleview() {
     setState(() {
-      showSignin= !showSignin;
+      showSignin = !showSignin;
     });
   }
+
   @override
   Widget build(BuildContext context) {
-    if(showSignin){
+    if (showSignin) {
       return SignIn(toggleview: toggleview);
-    }else{
+    } else {
       return Register(toggleview: toggleview);
     }
   }

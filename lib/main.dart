@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:moneymanager/models/user.dart';
-import 'package:moneymanager/screens/auth/sign_in.dart';
 import 'package:moneymanager/screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:moneymanager/services/auth1.dart';
